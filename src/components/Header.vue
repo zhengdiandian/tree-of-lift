@@ -3,9 +3,9 @@
       <div class="center-wrap">
         <nav>
           <div class="nav-left">
-            <router-link class="logo" to="/"><img src="../../static/images/LOGO.svg" alt=""></router-link>
+            <router-link class="logo" to="/"><img src="../../static/images/LOGO_CyberBlock.svg" alt=""></router-link>
             <router-link class="left-item" to="/" active-class="active-item">ABS</router-link>
-            <router-link class="left-item" to="/">ICO</router-link>
+            <!-- <router-link class="left-item" to="/">ICO</router-link> -->
             <router-link class="left-item" to="/">Online Trading</router-link>
           </div>
           <div class="nav-right">
@@ -56,9 +56,15 @@
     .nav-left{
       float: left;
       .logo{
+        display: inline-block;
+          // padding-top: 1px;
+          font-size: 14px;
         img{
-      vertical-align: middle;
+          // line-height: 20px;
+          // height: 20px;
+      vertical-align: -2px;
           margin-right: 83px;
+          
 
         }
 

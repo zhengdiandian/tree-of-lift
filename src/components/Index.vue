@@ -3,7 +3,7 @@
     <Header></Header>
     <div class="content-wrap">
       <div class="content">
-        <div class="title">TOL Benefits</div>
+        <div class="title">Cyberblock Benefits</div>
         <div class="info-wrap">
           <div class="info">
             <img src="../../static/images/Group3.svg" alt="">
@@ -13,7 +13,7 @@
           <div class="info">
             <img src="../../static/images/Intrinsicvalue.svg" alt="">
             <div>Intrinsic value</div>
-            <p>Differ from other ICO projects which only depend on white paper and technology vision, we transfer real asset to digital level, enrich the intrinsic value.</p>
+            <p>Differ from other projects which only depend on white paper and technology vision, we transfer real asset to digital level, enrich the intrinsic value.</p>
           </div>
           <div class="info">
             <img src="../../static/images/Visibleinformation.svg" alt="">
