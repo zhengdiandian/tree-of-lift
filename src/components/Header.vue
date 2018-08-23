@@ -4,8 +4,11 @@
         <nav>
           <div class="nav-left">
             <router-link class="logo" to="/"><img src="../../static/images/LOGO_CyberBlock.svg" alt=""></router-link>
-            <router-link class="left-item" to="/" active-class="active-item">ABS</router-link>
+            <router-link class="left-item" to="/" active-class="active-item">Home</router-link>
             <!-- <router-link class="left-item" to="/">ICO</router-link> -->
+            <router-link class="left-item" to="/">Tokenised</router-link>
+            <router-link class="left-item" to="/">Investor</router-link>
+            <router-link class="left-item" to="/">Projects</router-link>
             <router-link class="left-item" to="/">Online Trading</router-link>
           </div>
           <div class="nav-right">
@@ -16,6 +19,10 @@
           <div class="title">Real Asset Tokenised</div>
           <div>Let value flow free</div>
           <p>Through block chain technology, we design Token product which allows usufruct of real assets transfers to digital assets, build a platform which is simply realisation for real asset owner and investment to trade safely, this platform could solve problems such as information asymmetry and high trust cost.</p>
+        </div>
+        <div class="button-group">
+          <div class="btn">Apply for a token for your asset</div>
+          <div class="btn">Become a investor</div>
         </div>
       </div>
     </header>
@@ -64,7 +71,7 @@
           // height: 20px;
       vertical-align: -2px;
           margin-right: 83px;
-          
+
 
         }
 
@@ -121,5 +128,30 @@
         }
       }
     }
+
+
+
   }
+  .button-group{
+    width: 820px;
+    margin: 120px auto 0px;
+    .btn{
+      display: inline-block;
+      width:360px;
+      height:60px;
+      background:rgba(255,255,255,1);
+      border-radius:8px;
+      border:1px solid rgba(76,156,111,1);
+      text-align:  center;
+      line-height: 60px;
+      color:rgba(76,156,111,1);
+    }
+    .btn:nth-child(1){
+      float: left;
+    }
+    .btn:nth-child(2){
+      float: right;
+    }
+  }
+
 </style>
