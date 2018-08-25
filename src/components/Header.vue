@@ -6,7 +6,7 @@
             <router-link class="logo" to="/"><img src="../../static/images/LOGO_CyberBlock.svg" alt=""></router-link>
             <router-link class="left-item" to="/" active-class="active-item">Home</router-link>
             <!-- <router-link class="left-item" to="/">ICO</router-link> -->
-            <router-link class="left-item" to="/">Tokenised</router-link>
+            <router-link class="left-item" to="/Tokenised">Tokenised</router-link>
             <router-link class="left-item" to="/">Investor</router-link>
             <router-link class="left-item" to="/">Projects</router-link>
             <router-link class="left-item" to="/">Online Trading</router-link>
@@ -21,8 +21,13 @@
           <p>Through block chain technology, we design Token product which allows usufruct of real assets transfers to digital assets, build a platform which is simply realisation for real asset owner and investment to trade safely, this platform could solve problems such as information asymmetry and high trust cost.</p>
         </div>
         <div class="button-group">
+          <router-link to="/Tokenised">
+
           <div class="btn">Apply for a token for your asset</div>
-          <div class="btn">Become a investor</div>
+          </router-link>
+          <router-link to="/">
+            <div class="btn">Become a investor</div>
+          </router-link>
         </div>
       </div>
     </header>
@@ -136,6 +141,7 @@
     width: 820px;
     margin: 120px auto 0px;
     .btn{
+      cursor: pointer;
       display: inline-block;
       width:360px;
       height:60px;
@@ -149,7 +155,7 @@
     .btn:nth-child(1){
       float: left;
     }
-    .btn:nth-child(2){
+    a:nth-child(2){
       float: right;
     }
   }
