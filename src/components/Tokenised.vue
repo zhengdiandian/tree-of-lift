@@ -70,7 +70,7 @@
               <div class="file-inp-wrap">
                 <div class="content-wrap">
                   <div class="text-inp-wrap bottom20 text-center">ID or Passport*D</div>
-                  <label for="tow" class="btn">UPLOAD</label><input id="tow" type="text" class="file-inp-medium">
+                  <label for="tow" class="btn">UPLOAD</label><input id="tow" type="file" class="file-inp-medium">
                 </div>
               </div>
             </el-col>
@@ -92,8 +92,8 @@
             <el-col :span="24" class="bottom20">
               <div class="text-inp-wrap">
                 <div class="inp-label" >Type</div>
-                <el-select  style="width: 100%">
-                  <el-option>矿产</el-option>
+                <el-select  style="width: 100%" no-data-text="No data" placeholder="Select">
+                  <!--<el-option>矿产</el-option>-->
                 </el-select>
                 <!--<input type="text" class="text-inp-big">-->
               </div>
@@ -189,6 +189,7 @@
       </div>
 
     </div>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -202,7 +203,7 @@
         },
       data(){
           return {
-            active: 3,
+            active: 0,
             space: '120px',
             show: false,
             text: 'In asset appraisal,'
@@ -216,8 +217,13 @@
                 this.text = 'Evaluate the results'
                 this.show = true;
               },2000)
+
+            }
+            else if (this.active ==5) {
+              this.$router.push('/Home')
             }
           }
+
       }
     }
 </script>
@@ -226,6 +232,8 @@
   .main-wrap{
     width: 100%;
     .main{
+      box-sizing: border-box;
+      padding:  0 100px;
       width: 1200px;
       margin: 0 auto;
 

@@ -3,8 +3,8 @@
       <div class="footer-wrap">
         <div class="contact">Contact Us</div>
         <div class="center ">
-          <a href="#" class="left">Telegram</a>
-          <a href="#" calss="right">Terms of User</a>
+          <a href="javascript:void(0)"  class="left">Telegram</a>
+          <!--<a href="#" calss="right">Terms of User</a>-->
         </div>
       <div class="small"> ©1692015-2018 chain.cn</div>
       </div>
@@ -20,7 +20,8 @@
 <style lang="scss" scoped>
   footer{
     width: 100%;
-    height:180px;
+    /*overflow: hidden;*/
+    /*height:180px;*/
     background:rgba(76,156,111,1);
   }
   .footer-wrap{
@@ -32,6 +33,7 @@
     margin: 0 auto;
     height: 100%;
     .contact{
+      cursor: pointer;
       font-size:14px;
       font-family:PingFangSC-Medium;
       color:rgba(255,255,255,1);

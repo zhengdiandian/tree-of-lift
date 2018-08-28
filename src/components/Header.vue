@@ -6,10 +6,10 @@
             <router-link class="logo" to="/"><img src="../../static/images/LOGO_CyberBlock.svg" alt=""></router-link>
             <router-link class="left-item" to="/" active-class="active-item">Home</router-link>
             <!-- <router-link class="left-item" to="/">ICO</router-link> -->
-            <router-link class="left-item" to="/Tokenised">Tokenised</router-link>
-            <router-link class="left-item" to="/">Investor</router-link>
-            <router-link class="left-item" to="/">Projects</router-link>
-            <router-link class="left-item" to="/">Online Trading</router-link>
+            <router-link class="left-item" to="/Tokenised" active-class="active-item">Tokenised</router-link>
+            <router-link class="left-item" to="/Investor" active-class="active-item">Investor</router-link>
+            <router-link class="left-item" to="/Projects" active-class="active-item">Projects</router-link>
+            <router-link class="left-item" to="/OnlineTrading" active-class="active-item">Online Trading</router-link>
           </div>
           <div class="nav-right">
             <router-link to="/" class="right-item">Sign in</router-link> or <router-link to="/" class="right-item">Log in</router-link>
@@ -25,7 +25,7 @@
 
           <div class="btn">Apply for a token for your asset</div>
           </router-link>
-          <router-link to="/">
+          <router-link to="/Investor">
             <div class="btn">Become a investor</div>
           </router-link>
         </div>
